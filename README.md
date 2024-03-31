@@ -6,7 +6,7 @@ This application uses MarianMTModel which is a family of neural machine translat
 ### This model can translate the below language. ### 
 
 
-<li><a href="" target="_blank"><img src="assets/language translator.gif"width="500" height="500"></a></li>
+<li><a href="" target="_blank"><img src="assets/language_translator.gif"width="500" height="500"></a></li>
 
 
 
@@ -17,7 +17,7 @@ This application uses MarianMTModel which is a family of neural machine translat
 <br>
 <br>
 
-### To test this model , copied description of one pothole reporting from the 311-app ,and passed as the request body of RESTAPIs and below are the response in different languages.
+### To test this model, copied the description of one pothole reporting from the 311 app, and passed it as the request body of RESTAPIs, below are the responses in different languages.
 
 ### Request body ###
 
