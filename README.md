@@ -6,11 +6,9 @@ This application uses MarianMTModel which is a family of neural machine translat
 ### This model can translate the below language. ### 
 
 
-<li><a href=""target="_blank">Persistent Bravo Award<img src="assets/laguage translator.png"width="40" height="40" ></a></li>
-                  
-![language translator](https://github.com/AntimaDwivedi/311-app-GSOC-2024/assets/56269029/694373d4-8a2f-490c-b4dd-aa76c1d28213)
+<li><a href="" target="_blank"><img src="assets/language translator.gif"width="500" height="500"></a></li>
 
 
 
-Below is the flow diagram of the application.
+### Below is the flow diagram of the application. ###
 ![flow chart drawio](https://github.com/AntimaDwivedi/311-app-GSOC-2024/assets/56269029/c65910ff-60a5-4c07-8010-d8f7f403cb9c)
