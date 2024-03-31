@@ -18,8 +18,7 @@ This application uses MarianMTModel which is a family of neural machine translat
 ### <b>•</b>Once the model is trained,rest-APIs will serve translated text as a response. ###
 
 
-<br>
-<br>
+
 
 
 ### Below is the flow diagram of the application. ###
