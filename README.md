@@ -11,4 +11,7 @@ This application uses MarianMTModel which is a family of neural machine translat
 
 
 ### Below is the flow diagram of the application. ###
-![flow chart drawio](https://github.com/AntimaDwivedi/311-app-GSOC-2024/assets/56269029/c65910ff-60a5-4c07-8010-d8f7f403cb9c)
+
+<li><a href="" target="_blank"><img src="assets/flow-chart.png"width="500" height="500"></a></li>
+
+
