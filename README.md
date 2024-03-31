@@ -10,15 +10,16 @@ This application uses MarianMTModel which is a family of neural machine translat
 <br>
 <br>
 
-### <b>•</b>Application is trained with the _Helsinki-NLP/opus-mt-en-{target_language}_ model. ###<br>
-### <b>•</b> **{target_language} will be replaced by the language code.### <br>
-### <b>•</b> The Below image represents the language code for different languages.### <br>
-<li><a href="" target="_blank"><img src="assets/language_translator.gif"width="500" height="500"></a></li>
+### <b>•</b>Application is trained with the _Helsinki-NLP/opus-mt-en-{target_language}_ model ###<br>
+### <b>•</b> {target_language} will be replaced by the language code ### <br>
+### <b>•</b> The Below image represents the language code for different languages ### <br>
+<li><a href="" target="_blank"><img src="assets/language codes.png"width="500" height="500"></a></li>
 
-### <b>•</b>Once the model is trained,rest-APIs will serve translated text as a response.###
+### <b>•</b>Once the model is trained,rest-APIs will serve translated text as a response ###
 
 
-
+<br>
+<br>
 
 
 ### Below is the flow diagram of the application. ###
