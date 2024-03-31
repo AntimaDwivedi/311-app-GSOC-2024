@@ -12,6 +12,7 @@ This application uses MarianMTModel which is a family of neural machine translat
 
 ### Below is the flow diagram of the application. ###
 
+
 <li><a href="" target="_blank"><img src="assets/flow_chart.png"></a></li>
 
 <br>
@@ -35,6 +36,12 @@ This application uses MarianMTModel which is a family of neural machine translat
 ### Response in Russian ###
 
     "Language - russian  \"Близко к станции mbta, где именно на тротуаре находится выбоина: [На дороге] Как приблизительно размер выбоины: [2 фута] Дата, когда выбоина заметила:"
+
+### Limitation ###
+**This model needs to be tested with a wide range of requests, reported on 311-app to achieve smooth translation on corner-edge cases.**
+    
+
+    
 
 
 
