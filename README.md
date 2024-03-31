@@ -14,6 +14,9 @@ This application uses MarianMTModel which is a family of neural machine translat
 
 <li><a href="" target="_blank"><img src="assets/flow_chart.png"></a></li>
 
+<br>
+<br>
+
 ### To test this model , copied description of one pothole reporting from the 311-app ,and passed as the request body of RESTAPIs and below are the response in different languages.
 
 ### Request body ###
