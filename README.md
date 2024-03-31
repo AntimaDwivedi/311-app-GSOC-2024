@@ -1,16 +1,28 @@
 # Language Translator model
 ### This is a language translation application developed during the proposal submission round of GSOC 2024 for the  organization City of Boston. The project idea has been taken from the list of ideas of the organization itself. ###
-### Working ###
+## Working ##
 This application uses MarianMTModel which is a family of neural machine translation models trained on the OPUS dataset. This model is designed for translating text between multiple languages. Further model is  accessed through REST APIs developed using Flask.<br><br>
 
 ### This model can translate the below language. ### 
 
 
 <li><a href="" target="_blank"><img src="assets/language_translator.gif"width="500" height="500"></a></li>
+<br>
+<br>
+
+### <b>•</b>Application is trained with the _Helsinki-NLP/opus-mt-en-{target_language}_ model. ###<br>
+### <b>•</b> **{target_language} will be replaced by the language code.### <br>
+### <b>•</b> The Below image represents the language code for different languages.### <br>
+<li><a href="" target="_blank"><img src="assets/language_translator.gif"width="500" height="500"></a></li>
+
+### <b>•</b>Once the model is trained,rest-APIs will serve translated text as a response.###
+
+
 
 
 
 ### Below is the flow diagram of the application. ###
+
 
 
 <li><a href="" target="_blank"><img src="assets/flow_chart.png"></a></li>
@@ -51,7 +63,6 @@ This application uses MarianMTModel which is a family of neural machine translat
     "Language - russian  \"Близко к станции mbta, где именно на тротуаре находится выбоина: [На дороге] Как приблизительно размер выбоины: [2 фута] Дата, когда выбоина заметила:"
 
 ### Limitation ###
-**This is a basic version of the language translator model, a lot of modifications are needed to make it production-ready** <br>
 **This model needs to be tested with a wide range of requests, reported on 311-app to achieve smooth translation on corner-edge cases.** <br>
     
 
