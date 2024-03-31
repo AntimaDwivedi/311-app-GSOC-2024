@@ -12,6 +12,6 @@ This application uses MarianMTModel which is a family of neural machine translat
 
 ### Below is the flow diagram of the application. ###
 
-<li><a href="" target="_blank"><img src="assets/flow-chart.png"width="500" height="500"></a></li>
+<li><a href="" target="_blank"><img src="assets/flow-chart.png"></a></li>
 
 
