@@ -14,7 +14,7 @@ This application uses MarianMTModel which is a family of neural machine translat
 
 <li><a href="" target="_blank"><img src="assets/flow_chart.png"></a></li>
 
-### To test this model , description of one pothole reporting has been copied from the 311-app ,and passed as the request body of RESTAPIs and below are the response in different languages.
+### To test this model , copied description of one pothole reporting from the 311-app ,and passed as the request body of RESTAPIs and below are the response in different languages.
 
 ### Request body ###
 
@@ -28,8 +28,10 @@ This application uses MarianMTModel which is a family of neural machine translat
     "Language - arabic  \"على مقربة من محطة Mbta حيث بالضبط على الرصيف هو حفرة الفتحة: [على الطريق] ما هو الحجم التقريبي للحفرة: [[ft] التاريخ الذي لاحظت فيه الحفرة: [03/31/2024]"
 ### Response in French ###
 
-    
+    "Language - french  \"à proximité de la station de mbta\" Où exactement sur le pavement est le trou de pot: [Sur la route] Quelle est la taille approximative du trou de pot: [2ft] Date où le trou de pot"
 ### Response in Russian ###
+
+    "Language - russian  \"Близко к станции mbta, где именно на тротуаре находится выбоина: [На дороге] Как приблизительно размер выбоины: [2 фута] Дата, когда выбоина заметила:"
 
 
 
