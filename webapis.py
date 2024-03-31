@@ -3,13 +3,6 @@ from flask import Flask ,request ,jsonify
 from huggingface import translate
 
 app = Flask(__name__)
-@app.route('/translation/es' ,methods=['GET'])
-def spanish_translator():
-    data = request.get_data()
-    input_text = str(data, 'UTF-8')
-    target_language = 'es'
-    translated_text = translate(input_text, target_language)
-    return jsonify("Language - spanish  " + translated_text)
 
 @app.route('/translation/ar' ,methods=['GET'])
 def arabic_translator():
@@ -39,8 +32,8 @@ def russian_translator():
 def portuguese_translator():
     data = request.get_data()
     input_text = str(data, 'UTF-8')
-    target_language = 'ru'
+    target_language = 'pt'
     translated_text = translate(input_text, target_language)
-    return jsonify("Language - russian  " + translated_text)
+    return jsonify("Language - portugueses  " + translated_text)
 
 app.run(debug = True)
