@@ -1,6 +1,6 @@
 from flask import Flask ,request ,jsonify
 
-from huggingface import translate
+from huggingface import translate, translate_portuguese
 
 app = Flask(__name__)
 
@@ -33,7 +33,7 @@ def portuguese_translator():
     data = request.get_data()
     input_text = str(data, 'UTF-8')
     target_language = 'pt'
-    translated_text = translate(input_text, target_language)
+    translated_text = translate_portuguese(input_text)
     return jsonify("Language - portugueses  " + translated_text)
 
 app.run(debug = True)
