@@ -72,6 +72,7 @@ This application uses MarianMTModel which is a family of neural machine translat
     
 
 ## Limitation ##
+### <b>•</b>This application is a sample of work to propose a solution to City of Boston mentors and has not been deployed anywhere yet.. ###
 ### <b>•</b>This model needs to be tested with a wide range of requests, reported on 311-app to achieve smooth translation on corner-edge cases. ###
     
 
